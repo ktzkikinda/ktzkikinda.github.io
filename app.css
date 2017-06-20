@@ -26,8 +26,20 @@ h2{
 h3{
     font-size:2rem;
 }
-#druga_sekcija{
+#drugi_section{
     background-color:#2b3990;
     color:white;
 }
 
+
+.dugme {
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius:5px;
+    padding: 0.5rem 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
