@@ -1,4 +1,32 @@
 #hero{
-    min-height:100vh;
     background-color:#c81b37;
+    color:white;
+}
+
+body{
+    font-family: system, "Segoe UI", sans-serif;
+}
+
+section{
+    min-height:100vh;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Catamaran', sans-serif;
+    line-height: 1;
+}
+h1{
+    font-size:4rem;
+}
+h2{
+    font-size:3rem;
+}
+h3{
+    font-size:2rem;
+}
+#druga_sekcija{
+    background-color:#2b3990;
+    color:white;
 }
