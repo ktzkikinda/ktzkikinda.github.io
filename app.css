@@ -25,6 +25,7 @@ h2{
 }
 h3{
     font-size:2rem;
+    color:#CFB53B;
 }
 
 #drugi_section{
@@ -46,6 +47,10 @@ li a {
     font-size:2rem;
     color:white;
     font-weight:bold;
+}
+a:hover{
+    transition-duration:1500ms;
+    color:#c81b37;
 }
 li{
     display:inline;
