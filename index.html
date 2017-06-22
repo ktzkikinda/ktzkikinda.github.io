@@ -7,10 +7,28 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.css">
 	<script src="javascript.js"></script>
 	<meta charset="UTF-8">
-	<title> </title>
+	<title>KTZ</title>
 </head>
 
 <body>
+<nav class="fixed-nav-bar">	
+	<div class="container">
+	<div class="row">
+		<div class="col-xs-12 col-sm-6">
+		<a href="#hero"><img src="kty.png" alt="ktz" style="height:50px;"></a>	
+		</div>
+		<div class="col-xs-12 col-sm-6">
+			<ul>
+  <li><a href="#footer">Kontakt</a></li>
+  <li><a href="#gmap">Mapa</a></li>
+  <li><a href="#galerija">Galerija</a></li>
+	</ul>
+		</div>
+	
+</div>
+</div>
+	</nav>
+
 	<section id="hero" class="row center-xs middle-xs">
 
 
@@ -42,7 +60,7 @@
 					<p> Refili enntium reiciendis doloremque minima rem a aspernatur, totam eos, consequuntur. </p>
 
 				</div>
-				<div class="col-xs-12 col-sm-4">
+				<div  class="col-xs-12 col-sm-4">
 
 					<h2>Lorem ipsum</h2>
 					<h3>Doloremque minima</h3>
@@ -61,10 +79,11 @@
 
 
 	</section>
-	<div class="row center-xs middle-xs" style="min-height:100vh">
-		<div class="col-xs-12 col-sm-6">
-			<h3>Gde se mi nalazimo?</h3>
-			<div id="googleMap"style="height:500px;width:100%;">
+
+	<div id="gmap" class="row center-xs middle-xs" style="min-height:100vh">
+		<div class="col-xs-12">
+			<h3 style="color:#c81b37; font-size:4rem" >Gde se mi nalazimo?</h3>
+			<div id="googleMap">
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUuzwBZUsxxBqznOfnYn8IDIh_juWk72E&callback=myMap"></script>
 	</div>
 
@@ -73,7 +92,6 @@
 
 
 	</div>
-	
 
 	
 
@@ -91,7 +109,7 @@
 		</div>
 
 	</section>
-	<footer class="row" style="color:#2b3990">
+	<footer id="footer" class="row" style="color:#c81b37">
 		<div class="col-xs-6">
 			©2017 <b>KTZ</b>
 		</div>

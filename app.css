@@ -26,9 +26,30 @@ h2{
 h3{
     font-size:2rem;
 }
+
 #drugi_section{
-    background-color:#2b3990;
+    color:#c81b37;
+}
+#googleMap{
+    height:500px;
+    width:100%;
+    border:2px solid #c81b37;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a {
+    width: 100px;
+    text-decoration:none;
+    font-size:2rem;
     color:white;
+    font-weight:bold;
+}
+li{
+    display:inline;
+    margin:10px;
 }
 
 
@@ -43,3 +64,14 @@ h3{
     display: inline-block;
 
 }
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: #FFD700	;
+}
+
