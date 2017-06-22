@@ -30,6 +30,7 @@ h3{
 
 #drugi_section{
     color:#c81b37;
+    padding-top:20px;
 }
 #googleMap{
     height:500px;
@@ -76,7 +77,6 @@ li{
   left: 0;
   z-index: 9999;
   width: 100%;
-  height: 50px;
   background-color: #FFD700	;
 }
 
