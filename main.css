@@ -1,27 +1,56 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+
 
 html {
     font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
+ 
+    
+    
+}
+.move {
+    text-align: left;
 }
 .color {
     background-color: #c81b37;
+    color: white;
+  
+    
+
 }
 
 .empty {
 height: 440px;
 }
-.box {
-    text-align: left;
-}
+
 header {
     width: 100%;
-    position: fixed;
+      position: fixed;
     background: #c81b37; 
+    color: white;
+height: 50px;
 }
 h2 {
     color: #c81b37;
+  
 }
-footer .col-lg-1{
+.top {
+padding-top: 50px;
+}
+footer div + div{
 color: #c81b37;
+}
+.first {
+    border-radius: 50px;
+    border-color: white;
+    color: white;
+    background-color: #c81b37;
+}
+body button {
+    border-radius: 6px;
+    border-color: #c81b37;
+    color: #c81b37;
+    background-color: white;
 }
