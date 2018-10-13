@@ -1,0 +1,38 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+html,body{
+    margin: 0 auto;
+    font-family:'Roboto',sans-serif;
+}
+.nav-main{
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    background:red;
+}
+.logo, .tag-line {
+display:flex;
+align-items: center;
+height: 56px;
+flex:1;
+}
+.tag-line{
+    font-size:20px;
+    color:#fff
+}
+
+.navigation{
+}
+.nav-buttons{
+    display:flex;
+    list-style: none;
+}
+.nav-buttons li{
+    margin: 0 0.5em;
+}
+.nav-buttons a{
+    color:#fff;
+    text-decoration:none;
+}
