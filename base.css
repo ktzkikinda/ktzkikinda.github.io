@@ -1,16 +1,5 @@
-.logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-}
-
-html, body {
-    height: 100%;
-}
-
-body {
-    display: flex;
-    margin: 0;
-    padding: 0;
+header {
+    background: #c81b37;
+    height:200px;
+    width: 100%;
 }
