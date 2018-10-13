@@ -10,7 +10,7 @@ html,body{
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
-    background:red;
+    background:#c81b37;
 }
 .logo, .tag-line {
 display:flex;
