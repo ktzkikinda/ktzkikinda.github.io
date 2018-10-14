@@ -2,8 +2,8 @@
     box-sizing: border-box;
   }
 html,body{
-    margin: 0 auto;
-    font-family:'Roboto',sans-serif;
+    margin:0;
+    font:16px/1.5 'Roboto',sans-serif;
 }
 .nav-main{
     height: 56px;
@@ -13,10 +13,10 @@ html,body{
     background:#c81b37;
 }
 .logo, .tag-line {
-display:flex;
-align-items: center;
-height: 56px;
-flex:1;
+    display:flex;
+    align-items: center;
+    height: 56px;
+    flex:1;
 }
 .tag-line{
     font-size:20px;
@@ -38,24 +38,33 @@ flex:1;
     color:#fff;
     text-decoration:none;
 }
-.naslov1{
-    color:#c81b37;
+h1{
     font-size:3em;
 }
-.naslov2{
-    color: #111111;
+h2 {
     font-size:1.5em;
+    font-weight: 400;
 }
 .dugme1{
+    color: #fff;
+    border: solid #fff 1px;
+    border-radius: .25em;
+    padding: 8px 12px;
+    text-decoration: none;
+    text-align: center;
+    display:inline-flex;
+}
+.dugme2{
     color: #C81B37;
     border: solid #C81B37 1px;
     border-radius: .25em;
     padding: 8px 12px;
     text-decoration: none;
     text-align: center;
+    display:inline-flex;
 }
 .btn{
-    color: #FFFFFF;
+    color: #fff;
     border: 1px solid #C81B37;
     border-radius: 0.25em;
     background-color:#C81B37;
@@ -74,5 +83,20 @@ flex:1;
 .linkovi{
     text-align: center;
     color: #C81B37;
-    text-decoration: none;
+    text-decoration:underline;
 }
+.pozadina{
+    background:#C81B37;
+    display:flex;
+    padding:5em;
+}
+.fb{
+    padding-right:.5em
+}
+.color--main{
+color:#C81B37;
+}
+.color--white{
+    color:#fff
+}
+
