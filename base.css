@@ -29,6 +29,7 @@ flex:1;
 .nav-buttons{
     display:flex;
     list-style: none;
+    font-size:1em;
 }
 .nav-buttons li{
     margin: 0 0.5em;
@@ -36,4 +37,42 @@ flex:1;
 .nav-buttons a{
     color:#fff;
     text-decoration:none;
+}
+.naslov1{
+    color:#c81b37;
+    font-size:3em;
+}
+.naslov2{
+    color: #111111;
+    font-size:1.5em;
+}
+.dugme1{
+    color: #C81B37;
+    border: solid #C81B37 1px;
+    border-radius: .25em;
+    padding: 8px 12px;
+    text-decoration: none;
+    text-align: center;
+}
+.btn{
+    color: #FFFFFF;
+    border: 1px solid #C81B37;
+    border-radius: 0.25em;
+    background-color:#C81B37;
+    padding:8px 12px;
+    text-decoration: none;
+    text-align: center;
+}
+.btn:hover{
+    box-shadow: 0 0 0 4px rgba(200,27,55,0.25);
+}
+.ktzprozirno{
+    text-align: center;
+    color: #BEBABE;
+    text-decoration: none;
+}
+.linkovi{
+    text-align: center;
+    color: #C81B37;
+    text-decoration: none;
 }
