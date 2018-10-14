@@ -2,8 +2,8 @@
     box-sizing: border-box;
   }
 html,body{
-    margin: 0 auto;
-    font-family:'Roboto',sans-serif;
+    margin:0;
+    font:16px/1.5 'Roboto',sans-serif;
 }
 .nav-main{
     height: 56px;
@@ -13,10 +13,10 @@ html,body{
     background:#c81b37;
 }
 .logo, .tag-line {
-display:flex;
-align-items: center;
-height: 56px;
-flex:1;
+    display:flex;
+    align-items: center;
+    height: 56px;
+    flex:1;
 }
 .tag-line{
     font-size:20px;
@@ -29,6 +29,7 @@ flex:1;
 .nav-buttons{
     display:flex;
     list-style: none;
+    font-size:1em;
 }
 .nav-buttons a{
     color:#fff;
@@ -110,3 +111,65 @@ flex:1;
 .A, .drop-menu-hover {
     margin:6px 0.5em;
 }
+h1{
+    font-size:3em;
+}
+h2 {
+    font-size:1.5em;
+    font-weight: 400;
+}
+.dugme1{
+    color: #fff;
+    border: solid #fff 1px;
+    border-radius: .25em;
+    padding: 8px 12px;
+    text-decoration: none;
+    text-align: center;
+    display:inline-flex;
+}
+.dugme2{
+    color: #C81B37;
+    border: solid #C81B37 1px;
+    border-radius: .25em;
+    padding: 8px 12px;
+    text-decoration: none;
+    text-align: center;
+    display:inline-flex;
+}
+.btn{
+    color: #fff;
+    border: 1px solid #C81B37;
+    border-radius: 0.25em;
+    background-color:#C81B37;
+    padding:8px 12px;
+    text-decoration: none;
+    text-align: center;
+}
+.btn:hover{
+    box-shadow: 0 0 0 4px rgba(200,27,55,0.25);
+}
+.ktzprozirno{
+    text-align: center;
+    color: #BEBABE;
+    text-decoration: none;
+}
+.linkovi{
+    text-align: center;
+    color: #C81B37;
+    text-decoration:underline;
+}
+.pozadina{
+    background:#C81B37;
+    display:flex;
+    padding:5em;
+}
+.fb{
+    padding-right:.5em
+}
+.color--main{
+color:#C81B37;
+}
+.color--white{
+    color:#fff
+}
+
