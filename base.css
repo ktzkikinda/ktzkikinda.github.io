@@ -23,9 +23,6 @@ html,body{
     color:#fff;
     margin-left: .5em;
 }
-
-.navigation{
-}
 .nav-buttons{
     display:flex;
     list-style: none;
@@ -112,6 +109,7 @@ html,body{
 }
 h1{
     font-size:3em;
+    margin:0;
 }
 h2 {
     font-size:1.5em;
@@ -159,8 +157,7 @@ h2 {
 }
 .pozadina{
     background:#C81B37;
-    display:flex;
-    padding:5em;
+    padding:7em 0;
 }
 .fb{
     padding-right:.5em
@@ -171,4 +168,6 @@ color:#C81B37;
 .color--white{
     color:#fff
 }
-
+.simple{
+    padding-top:7em;
+}
