@@ -12,80 +12,93 @@
 </head>
 
 <body>
-        <div id="fb-root"></div>
-        <script>(function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s); js.id = id;
-          js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1';
-          fjs.parentNode.insertBefore(js, fjs);
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1';
+            fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
-    <header class="nav-main">
+    <div class="pozadina-slika">
+        <header class="nav-main">
+            <div class="container">
+                <div class="logo">
+                    <img src="logo.svg" alt="logo">
+                    <h2 class="tag-line"><b>Кикиндска Технолошка Заједница</b></h2>
+                    <nav class="navigation">
+                        <ul class="nav-buttons">
+                            <li class="A">
+                                <a href="#">Блог</a>
+                            </li>
+                            <li class="A">
+                                <a href="#">Догађаји</a>
+                            </li>
+                            <li class="A">
+                                <a href="#">Контакт</a>
+                            </li>
+                            <li class="A">
+                                <a href="#">О нама</a>
+                            </li>
+                            <li class="drop-menu-hover">
+                                <a href="#">српски</a>
+                                <ul class="drop-menu">
+                                    <li class="top"><a href="#">српски језик</a></li>
+                                    <li><a href="#">Magyar</a></li>
+                                    <li><a href="#">Română</a></li>
+                                    <li class="bottom"><a href="#">English</a></li>
+                                </ul>
+                            </li>
+                            <li class="prati-nas"><a href="#">Прати нас</a></li>
+                        </ul>
+                    </nav>
+                </div>
+        </header>
+        <main>
+            <div class="pozadina">
+                <div class="container">
+                    <h1 class="color--white">Заједница дигиталне Кикинде</h1>
+                    <h2 class="color--white">Људи и предузећа, окупљени око заједничког циља -<br> дељења знања,
+                        развоја,
+                        међусобне подршке и <br>заједничког напретка.</h2><iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fktz.rs%2F&width=46&layout=button_count&action=like&size=small&show_faces=false&share=false&height=21&appId"
+                        width="120" height="21" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                        allowTransparency="true" allow="encrypted-media"></iframe>
+                    <div class="fb-like" data-href="https://www.facebook.com/ktz.rs/" data-width="46" data-layout="button_count"
+                        data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+                    <script async defer src="https://slack.ktz.rs/slackin.js"></script>
+                </div>
+            </div>
+    </div>
+    <section>
         <div class="container">
-            <div class="logo">
-                <img src="logo.svg" alt="logo">
-                <h2 class="tag-line"><b>Кикиндска Технолошка Заједница</b></h2>
-                <nav class="navigation">
-                    <ul class="nav-buttons">
-                        <li class="A">
-                            <a href="#">Блог</a>
-                        </li>
-                        <li class="A">
-                            <a href="#">Догађаји</a>
-                        </li>
-                        <li class="A">
-                            <a href="#">Контакт</a>
-                        </li>
-                        <li class="A">
-                            <a href="#">О нама</a>
-                        </li>
-                        <li class="drop-menu-hover">
-                            <a href="#">српски</a>
-                            <ul class="drop-menu">
-                                        <li class="top"><a href="#">српски језик</a></li>
-                                        <li><a href="#">Magyar</a></li>
-                                        <li><a href="#">Română</a></li>
-                                        <li class="bottom"><a href="#">English</a></li>
-                            </ul>
-                        </li>
-                        <li class="prati-nas"><a href="#">Прати нас</a></li>
-                    </ul>
-                </nav>
-            </div>
-    </header>
-    <main>
-        <div class="pozadina">
-            <div class="container">
-                <h1 class="color--white">Заједница дигиталне Кикинде</h1>
-                <h2 class="color--white">Људи и предузећа, окупљени око заједничког циља -<br> дељења знања, развоја,
-                    међусобне подршке и <br>заједничког напретка.</h2><iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fktz.rs%2F&width=46&layout=button_count&action=like&size=small&show_faces=false&share=false&height=21&appId" width="120" height="21" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-                    <div class="fb-like" data-href="https://www.facebook.com/ktz.rs/" data-width="46" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
-                <script async defer src="https://slack.ktz.rs/slackin.js"></script>
-            </div>
-        </div>
-        <section>
-            <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-4">
                     <h2 class="color--main">
                         Šta radimo?
                     </h2>
-                    <p>Organizujemo okupljanja, pomažemo pri pronalasku prvog posla i organizujemo radne prakse i obuke. Pored naših redovnih sastanaka, organizujemo i zvanični <a href="#" class="linkovi">Nodeschool</a>, Mozilla klub i radimo na projektima slobodnog koda za opštu dobrobit. Osnovali smo jedini besplatan saradnički prostor u Srbiji, prvi u Kikindi.</p>
-                    <p>Ako želite da se priključite organizaciji možete se javiti na <a href="#" class="linkovi">@ktz.rs</a> ili uživo na nekom od naših događaja.</p>
+                    <p>Organizujemo okupljanja, pomažemo pri pronalasku prvog posla i organizujemo radne prakse i
+                        obuke. Pored naših redovnih sastanaka, organizujemo i zvanični <a href="#" class="linkovi">Nodeschool</a>,
+                        Mozilla klub i radimo na projektima slobodnog koda za opštu dobrobit. Osnovali smo jedini
+                        besplatan saradnički prostor u Srbiji, prvi u Kikindi.</p>
+                    <p>Ako želite da se priključite organizaciji možete se javiti na <a href="#" class="linkovi">@ktz.rs</a>
+                        ili uživo na nekom od naših događaja.</p>
                 </div>
                 <div class="col-xs-12 col-md-4">
                     <h2 class="color--main">Besplatne obuke</h2>
-                    <p>U saradnji sa <a href="#" class="linkovi">Zamphyr</a>-om organizujemo besplatne programe prakse i obuke za prekvalifikaciju u IT, lokalno u Kikindi. U toku obuke pored učenja, imate priliku da radite na projektima otvorenog koda i spremite se za vaš prvi posao u IT industriji. </p>
+                    <p>U saradnji sa <a href="#" class="linkovi">Zamphyr</a>-om organizujemo besplatne programe prakse
+                        i obuke za prekvalifikaciju u IT, lokalno u Kikindi. U toku obuke pored učenja, imate priliku
+                        da radite na projektima otvorenog koda i spremite se za vaš prvi posao u IT industriji. </p>
                     <a href="#" class="dugme2">Prijava za program obuke</a>
                 </div>
                 <div class="col-xs-12 col-md-4">
                     <h2 class="color--main">Kontakt i saradnja</h2>
-                    <p>Ukoliko želite da kontaktirate tim radi saradnje, organizacije događaja, sponzorstva (sva pomoć je dobrodošla) ili kritiku, možete nam pisati na <a href="#" class="linkovi">tim@ktz.rs</a></p>
+                    <p>Ukoliko želite da kontaktirate tim radi saradnje, organizacije događaja, sponzorstva (sva pomoć
+                        je dobrodošla) ili kritiku, možete nam pisati na <a href="#" class="linkovi">tim@ktz.rs</a></p>
                     <a href="index2.html" class="dugme2">Želim da pomognem</a>
                 </div>
             </div>
-            </div>
-        </section>
+        </div>
+    </section>
     </main>
     <footer>
 

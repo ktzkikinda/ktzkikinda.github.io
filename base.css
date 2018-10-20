@@ -10,7 +10,7 @@ html,body{
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
-    background:#c81b37;
+    background:#c81b37BB;
 }
 .logo, .tag-line {
     display:flex;
@@ -156,7 +156,7 @@ h2 {
     text-decoration:underline;
 }
 .pozadina{
-    background:#C81B37;
+    background:#C81B37BB;
     padding:7em 0;
 }
 .fb{
@@ -170,4 +170,11 @@ color:#C81B37;
 }
 .simple{
     padding-top:7em;
+}
+
+.pozadina-slika{
+    background-image: url("pozadina1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
