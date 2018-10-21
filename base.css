@@ -179,12 +179,14 @@ color:#C81B37;
     background-position: center;
 }
 .slika1{
-    background-image: url("pozadina1.jpg");
+    background-image: url("labud.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height:20em;
+    margin-top:2.5em;
+    margin-bottom:2.5em;
 }
-section{
-    padding:2.5em;
+.margin--top{
+    margin-top:2.5em;
 }
