@@ -190,3 +190,10 @@ color:#C81B37;
 .margin--top{
     margin-top:2.5em;
 }
+.nav-main2{
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    background:#c81b37;
+}
